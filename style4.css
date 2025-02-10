@@ -1,0 +1,24 @@
+
+.text {
+    font-family: 'Creepster', cursive; /* или любой другой жуткий шрифт */
+    font-size: 48px;
+    color: #ff0000; /* Кроваво-красный цвет */
+    text-shadow: 2px 2px 4px #000000; /* Тень для зловещего эффекта */
+    letter-spacing: -2px; /* Сближаем буквы для ощущения плотности */
+    animation: flicker 1s infinite; /* Анимация мерцания */
+    text-align: center;
+    font-size: 50px; 
+  }
+  
+  @keyframes flicker {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.2;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

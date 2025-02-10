@@ -1,0 +1,44 @@
+.text {
+    text-align: center;
+    font-size: 50px;    
+}
+
+.URL {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1 {
+    padding: 100px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size:80px;
+    border: none;
+    color: white;
+    background-color: #4CAF50;
+}
+
+.button2 {
+    padding: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size:5px;
+    border: none;
+    color: white;
+    background-color: red
+}
+
+a { all: unset; /* Все стили элемента сбрасываются в ноль. */ 
+}
+
+img {
+    padding: 30px;
+    display: block; /*  Чтобы margin: auto работал */
+    width: 50%;      /*  Уменьшаем ширину вдвое */
+    max-width: 350px; /*  Ограничиваем максимальную ширину */
+    height: auto;     /*  Сохраняем пропорции */
+    margin: 0 auto;   /*  Горизонтальное центрирование */
+  }

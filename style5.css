@@ -1,0 +1,13 @@
+.text {
+    text-align: center;
+    font-size: 50px;    
+}
+
+img {
+    display: block; /*  Чтобы margin: auto работал */
+    width: 50%;      /*  Уменьшаем ширину вдвое */
+    max-width: 500px; /*  Ограничиваем максимальную ширину */
+    height: auto;     /*  Сохраняем пропорции */
+    margin: 0 auto;   /*  Горизонтальное центрирование */
+  }
+  

@@ -1,0 +1,40 @@
+.text {
+    text-align: center;
+    font-size: 50px;    
+}
+
+.URL {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1 {
+    padding: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size:20px;
+    border: none;
+    color: white;
+    background-color: #4CAF50;
+    
+}
+
+.button2 {
+    padding: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size:20px;
+    border: none;
+    color: white;
+    background-color: red;
+}
+
+
+a { all: unset; /* Все стили элемента сбрасываются в ноль. */ 
+}
+
+  
+
